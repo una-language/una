@@ -9,5 +9,4 @@ export interface Literal {
 }
 
 export type Node = Application | Literal;
-
 export type Program = Node[];

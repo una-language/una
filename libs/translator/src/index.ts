@@ -21,6 +21,6 @@ export const translateNode = (node: Node): ESTreeNode => {
   }
 };
 
-export const translateProgram = (program: Program): ESTreeProgram => {
+export const translate = (program: Program): ESTreeProgram => {
   return {} as any;
 };

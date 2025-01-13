@@ -12,6 +12,7 @@
     "moduleResolution": "node",
     "paths": {
       "@una/ast": ["libs/ast/src/index.ts"],
+      "@una/generator": ["libs/generator/src/index.ts"],
       "@una/lexer": ["libs/lexer/src/index.ts"],
       "@una/parser": ["libs/parser/src/index.ts"],
       "@una/translator": ["libs/translator/src/index.ts"],
