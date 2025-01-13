@@ -2,7 +2,9 @@
   "name": "@una/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test:transpiler": "nx test transpiler"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
