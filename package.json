@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "test:generator": "nx test generator",
+    "test:lexer": "nx test lexer",
+    "test:parser": "nx test parser",
     "test:translator": "nx test translator",
     "test:transpiler": "nx test transpiler"
   },

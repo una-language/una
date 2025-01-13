@@ -7,9 +7,8 @@ import { Transpiler, TranspilerOptions } from './types';
 export const createTranspiler = (options: TranspilerOptions): Transpiler => ({
   transpile: (code: string) => {
     const tokens = lex(code);
-    const unaAST = parse(tokens);
-    const javascriptAST = translate(unaAST);
-    const javascriptCode = generate(javascriptAST);
-    return javascriptCode;
+    const ast = parse(tokens);
+    const esAST = translate(ast);
+    return generate(esAST);
   },
 });
