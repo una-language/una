@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "test:translator": "nx test translator",
     "test:transpiler": "nx test transpiler"
   },
   "private": true,

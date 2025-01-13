@@ -11,6 +11,10 @@
     "module": "esnext",
     "moduleResolution": "node",
     "paths": {
+      "@una/ast": ["libs/ast/src/index.ts"],
+      "@una/lexer": ["libs/lexer/src/index.ts"],
+      "@una/parser": ["libs/parser/src/index.ts"],
+      "@una/translator": ["libs/translator/src/index.ts"],
       "@una/transpiler": ["libs/transpiler/src/index.ts"]
     },
     "rootDir": ".",
