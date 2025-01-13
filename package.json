@@ -7,7 +7,9 @@
     "test:transpiler": "nx test transpiler"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "chevrotain": "^11.0.3"
+  },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@nx/eslint": "19.8.0",

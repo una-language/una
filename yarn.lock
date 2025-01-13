@@ -950,6 +950,38 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@chevrotain/cst-dts-gen@11.0.3":
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/@chevrotain/cst-dts-gen/-/cst-dts-gen-11.0.3.tgz#5e0863cc57dc45e204ccfee6303225d15d9d4783"
+  integrity sha512-BvIKpRLeS/8UbfxXxgC33xOumsacaeCKAjAeLyOn7Pcp95HiRbrpl14S+9vaZLolnbssPIUuiUd8IvgkRyt6NQ==
+  dependencies:
+    "@chevrotain/gast" "11.0.3"
+    "@chevrotain/types" "11.0.3"
+    lodash-es "4.17.21"
+
+"@chevrotain/gast@11.0.3":
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/@chevrotain/gast/-/gast-11.0.3.tgz#e84d8880323fe8cbe792ef69ce3ffd43a936e818"
+  integrity sha512-+qNfcoNk70PyS/uxmj3li5NiECO+2YKZZQMbmjTqRI3Qchu8Hig/Q9vgkHpI3alNjr7M+a2St5pw5w5F6NL5/Q==
+  dependencies:
+    "@chevrotain/types" "11.0.3"
+    lodash-es "4.17.21"
+
+"@chevrotain/regexp-to-ast@11.0.3":
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/@chevrotain/regexp-to-ast/-/regexp-to-ast-11.0.3.tgz#11429a81c74a8e6a829271ce02fc66166d56dcdb"
+  integrity sha512-1fMHaBZxLFvWI067AVbGJav1eRY7N8DDvYCTwGBiE/ytKBgP8azTdgyrKyWZ9Mfh09eHWb5PgTSO8wi7U824RA==
+
+"@chevrotain/types@11.0.3":
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/@chevrotain/types/-/types-11.0.3.tgz#f8a03914f7b937f594f56eb89312b3b8f1c91848"
+  integrity sha512-gsiM3G8b58kZC2HaWR50gu6Y1440cHiJ+i3JUvcp/35JchYejb2+5MVeJK0iKThYpAa/P2PYFV4hoi44HD+aHQ==
+
+"@chevrotain/utils@11.0.3":
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/@chevrotain/utils/-/utils-11.0.3.tgz#e39999307b102cff3645ec4f5b3665f5297a2224"
+  integrity sha512-YslZMgtJUyuMbZ+aKvfF3x1f5liK4mWNxghFRv7jqRR9C3R3fAOGTTKvxXDa2Y1s9zSbcpuO0cAxDYsc9SrXoQ==
+
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz#00629c35a688e05a88b1cda684fb9d5e73f000a1"
@@ -2714,6 +2746,18 @@ char-regex@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
+
+chevrotain@^11.0.3:
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/chevrotain/-/chevrotain-11.0.3.tgz#88ffc1fb4b5739c715807eaeedbbf200e202fc1b"
+  integrity sha512-ci2iJH6LeIkvP9eJW6gpueU8cnZhv85ELY8w8WiFtNjMHA5ad6pQLaJo9mEly/9qUyCpvqX8/POVUTf18/HFdw==
+  dependencies:
+    "@chevrotain/cst-dts-gen" "11.0.3"
+    "@chevrotain/gast" "11.0.3"
+    "@chevrotain/regexp-to-ast" "11.0.3"
+    "@chevrotain/types" "11.0.3"
+    "@chevrotain/utils" "11.0.3"
+    lodash-es "4.17.21"
 
 ci-info@^3.2.0:
   version "3.9.0"
@@ -4678,6 +4722,11 @@ lockfile@1.0.4:
   integrity sha512-cvbTwETRfsFh4nHsL1eGWapU1XFi5Ot9E85sWAwia7Y7EgB7vfqcZhTKZ+l7hCGxSPoushMv5GKhT5PdLv03WA==
   dependencies:
     signal-exit "^3.0.2"
+
+lodash-es@4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
 lodash.debounce@^4.0.8:
   version "4.0.8"
